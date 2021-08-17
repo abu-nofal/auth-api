@@ -28,6 +28,9 @@
     "test-watch": "NODE_ENV=test jest --watchAll",
     "test": "NODE_ENV=test jest  --verbose --coverage"
   },
+  "jest": {
+    "testEnvironment": "node"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/abu-nofal/auth-api.git"
