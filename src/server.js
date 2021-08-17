@@ -23,6 +23,9 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 // Routes
+app.get('/',(req,res)=>{
+  res.send('hello m3lem 😙')
+})
 app.use(authRoutes);
 app.use('/api/v1', v1Routes);
 app.use( v2Routes);

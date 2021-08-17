@@ -47,4 +47,4 @@ UML
 
 ## link for deploy 
 
-- [for heroku](https://basic-auth-n.herokuapp.com/)
+- [for heroku](https://auth-api-nofal.herokuapp.com/api/v1/food)
